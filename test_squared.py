@@ -1,4 +1,4 @@
-from squared import squared
+from squareNum import squared
 
 def test_squared_1:
   assert squared(2) == 4
