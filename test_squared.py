@@ -1,8 +1,8 @@
 def squared(num):
-  return num * num
+	return num * num
 
 def test_squared_1:
-  assert squared(2) == 4
+	assert squared(2) == 4
 
 def test_squared_2:
   assert squared(4) == 16
