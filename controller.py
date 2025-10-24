@@ -1,3 +1,6 @@
-from model import data
+from model import read
 
-print(data)
+data = read()
+
+for item in data:
+    print(item)
